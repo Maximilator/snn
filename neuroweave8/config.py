@@ -251,17 +251,17 @@ def _base_columns(vocab: int) -> List[ColumnCfg]:
         ColumnCfg(
             name="A", side="left", n_in=vocab * 2, n_out=vocab,
             n_l4=24, n_l23=48, n_l5=32, n_l6=24, n_pv=16, n_sst=8,
-            input_gain=2.0,
+            input_gain=2.6,
         ),
         ColumnCfg(
             name="B", side="left", n_in=32, n_out=vocab,
             n_l4=24, n_l23=48, n_l5=32, n_l6=24, n_pv=16, n_sst=8,
-            input_gain=1.4,
+            input_gain=1.8,
         ),
         ColumnCfg(
             name="C", side="right", n_in=32, n_out=vocab,
             n_l4=24, n_l23=48, n_l5=32, n_l6=24, n_pv=16, n_sst=8,
-            input_gain=1.4,
+            input_gain=1.8,
         ),
     ]
 
